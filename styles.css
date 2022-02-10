@@ -139,12 +139,6 @@ body {
           transform: scale(1.1);
 }
 
-#bookmark {
-  float: right;
-  margin-right: 5%;
-  margin-top: 10%;
-}
-
 .whitebg {
   background-color: white;
   padding: 3%;
@@ -286,6 +280,31 @@ body {
   height: 80px;
 }
 
+#svg1 {
+  height: 80px;
+  width: 80px;
+}
+
+#svg2 {
+  height: 80px;
+  width: 80px;
+}
+
+#svg3 {
+  height: 80px;
+  width: 80px;
+}
+
+#svg4 {
+  height: 80px;
+  width: 80px;
+}
+
+#svg5 {
+  height: 80px;
+  width: 80px;
+}
+
 .cta {
   background-color: #EEE8A9;
   padding: 8%;
@@ -382,11 +401,6 @@ body {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
-  /* #bookmark {
-            float:right;
-            margin-right: 7%;
-            margin-top: 12%;
-        } */
   .whitebg {
     background-color: white;
     padding: 3%;
@@ -500,6 +514,26 @@ body {
     height: 140px;
     width: 140px;
   }
+  #svg1 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg2 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg3 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg4 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg5 {
+    height: 140px;
+    width: 140px;
+  }
   .cta {
     background-color: #EEE8A9;
     padding: 5%;
@@ -549,10 +583,6 @@ body {
 
 /* Größen-Anpassung für Desktop */
 @media only screen and (min-width: 1000px) {
-  #Ebene_2 {
-    width: 140px;
-    height: 140px;
-  }
   #header #logo {
     padding: 1.5%;
     text-align: left;
@@ -571,16 +601,17 @@ body {
     color: #1864AB;
     text-shadow: 1px 1px 1px rgba(112, 112, 112, 0.4);
     margin-top: 0;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
+    margin-bottom: 0px;
   }
   #header .text {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .disclaim {
     font-size: 1rem;
   }
   .input {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding-left: 12px;
     width: 20vw;
     border-style: none;
@@ -593,7 +624,7 @@ body {
     width: 18.2vw;
     height: 4.5vw;
     margin: 2px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     -webkit-transition: -webkit-transform 300ms ease-in-out;
     transition: -webkit-transform 300ms ease-in-out;
     transition: transform 300ms ease-in-out;
@@ -602,9 +633,6 @@ body {
   .button:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-  }
-  #bookmark {
-    display: none;
   }
   .container {
     display: -webkit-box;
@@ -635,7 +663,6 @@ body {
   }
   .whitebg .list {
     font-size: 2rem;
-    font-weight: bold;
   }
   #extracontent {
     display: -webkit-box;
@@ -649,10 +676,10 @@ body {
     margin-top: 15%;
     margin-right: 0;
     /*
-    Falls kein Zitat
-     .extratext {
-        font-size: 1.5rem;
-    } */
+        Falls kein Zitat
+        .extratext {
+            font-size: 1.5rem;
+        } */
   }
   #extracontent .extratitle {
     font-size: 3rem;
@@ -757,6 +784,26 @@ body {
     height: 140px;
     width: 140px;
   }
+  #svg1 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg2 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg3 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg4 {
+    height: 140px;
+    width: 140px;
+  }
+  #svg5 {
+    height: 140px;
+    width: 140px;
+  }
   .cta {
     background-color: #EEE8A9;
     padding: 7%;
@@ -770,8 +817,9 @@ body {
     text-shadow: 2px 2px 1px rgba(112, 112, 112, 0.4);
   }
   .cta .whitetext {
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 7%;
+    padding-right: 7%;
+    line-height: 2.3vw;
     font-size: 1.5rem;
   }
   #footer {
