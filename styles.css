@@ -19,7 +19,7 @@ body {
   height: 10%;
   background-color: white;
   color: #1864AB;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   padding: 6%;
   border-radius: 4px;
@@ -583,6 +583,9 @@ body {
 
 /* Größen-Anpassung für Desktop */
 @media only screen and (min-width: 1000px) {
+  .popup.show {
+    font-size: 1.5rem;
+  }
   #header #logo {
     padding: 1.5%;
     text-align: left;
