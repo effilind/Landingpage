@@ -1,19 +1,46 @@
+
 // Pop-up als Reaktion auf Anmeldung
 
 const submit = document.querySelector(".button");
-submit.addEventListener('click', () => {
-  const popup = document.querySelector(".popup");
-  popup.classList.toggle("show");
+const popup = document.querySelector(".popup");
+const main = document.querySelector("#main");
+const input = document.querySelector(".input");
 
-})
+function checkInput() {
+  
+    submit.addEventListener('click', () => {
+      if(validator.isEmail(input.value)){
+      if(input.value !== ""){
+        popup.classList.add("show");
+      setTimeout(() => {
+        popup.classList.remove("show");
+        
+        }, 3000); 
+      
+        main.classList.add("hide");
+        setTimeout(() => {
+          main.classList.remove("hide");
+          
+          }, 3000); 
+      } else {
+        input.textContent = "E-Mail-erforderlich";
+      }
+      }
+      }) 
+  
+};
 
-// Set time to close pop-up
 
-setTimeout(() => {
-popup.classList.remove("show");
+/* 
+formValidate({
+  inpt: input.value,
+  mail: 
+}) */
 
-}, 2000);
 
+
+
+checkInput();
 
 
 // Feld überprüfen
